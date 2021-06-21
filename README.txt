@@ -9,4 +9,4 @@ stimulus for the i-th chunk and chunk(i).out containing the corresponding outcom
 words, if |c| <= prec then we assume that c = 0.
 5. "epsilon" is the small constant to make the optimization problem well-posed.
 
-Two datasets namely "data_set_1" and "data_set_2" are also available. Loading each dataset in MATLAB loads two variables into the workspace: "chunk" and "Ts", the two first inputs of dome function.
+Two datasets namely "data_set_1" and "data_set_2" are also available. Loading each dataset in MATLAB loads two variables into the workspace: "chunk" and "Ts" that are the first two inputs to "dome" function.
